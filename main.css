@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.xwrapper {
+    width: 50vw;
+    /* height: 300px; */
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+}
