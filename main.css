@@ -27,12 +27,22 @@
     color: #898080;
 }
 
-.oauthButton {
+.signupbutton {
+    height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.oauthButton {
+    width: 300px;
+    /* height: 10px; */
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 0px 60px;
     border-radius: 35px;
     border: none;
     background-color: #fff;
