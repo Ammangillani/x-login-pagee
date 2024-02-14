@@ -44,18 +44,18 @@
     font-family: sans-serif;
 }
 
-/* .signupbutton {
+.signupbutton {
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
-} */
+}
 
 .oauthButton {
     width: 300px;
-    height: 40px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,14 +80,14 @@
 
 .btn-acc {
     width: 300px;
-    height: 40px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 35px;
     border: none;
-    background-color: #fff;
+    background-color: #1D9BF0;
     cursor: pointer;
 
 
@@ -95,7 +95,8 @@
 
 .btn-acc p {
     font-size: 16px;
-    color: #898080;
+    color: #fff;
+    text-transform: capitalize;
 }
 
 
