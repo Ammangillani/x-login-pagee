@@ -27,8 +27,19 @@
     color: #898080;
 }
 
+.wrapperheading {
+    display: flex;
+    align-items: self-start;
+}
+
 .wrapperheading h1 {
     font-size: 45px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.minheading {
+    font-size: 25px;
     color: #fff;
     font-family: sans-serif;
 }
