@@ -81,6 +81,29 @@
     color: #e8e8e8;
 }
 
+.orwraper {
+    display: flex;
+    align-items: center;
+
+}
+
+.orwraper hr {
+    border: 0;
+    background-color: #898080;
+    height: 1px;
+    width: 120px;
+
+
+}
+
+.orwraper span {
+    text-align: center;
+    width: 40px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 20px;
+}
+
 .btn-acc {
     width: 300px;
     height: 45px;
