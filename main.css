@@ -64,7 +64,7 @@
 }
 
 .oauthButton {
-    width: 330px;
+    width: 310px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -74,7 +74,6 @@
     border: none;
     background-color: #fff;
     cursor: pointer;
-
 
 }
 
@@ -150,4 +149,31 @@
 
 .privacy-del span {
     color: #1D9BF0;
+}
+
+.create-acc h2 {
+    padding: 10px 5px;
+}
+
+.already-acc-btn {
+    width: 330px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #1D9BF0;
+    color: #000;
+    cursor: pointer;
+}
+
+.already-acc-btn p {
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 700;
+    color: #1D9BF0;
+    text-transform: capitalize;
+
 }
