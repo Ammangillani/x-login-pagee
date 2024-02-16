@@ -64,8 +64,8 @@
 }
 
 .oauthButton {
-    width: 300px;
-    height: 45px;
+    width: 330px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,8 @@
 .oauthButton p {
     font-family: poppins;
     font-size: 14px;
-    color: #898080;
+    color: #3C4043;
+    text-transform: capitalize;
 }
 
 
@@ -99,7 +100,7 @@
     border: 0;
     background-color: #898080;
     height: 1px;
-    width: 120px;
+    width: 130px;
 
 
 }
@@ -113,8 +114,8 @@
 }
 
 .btn-acc {
-    width: 300px;
-    height: 45px;
+    width: 330px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,6 +131,7 @@
 .btn-acc p {
     font-family: poppins;
     font-size: 16px;
+    font-weight: 700;
     color: #fff;
     text-transform: capitalize;
 }
