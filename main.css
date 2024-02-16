@@ -23,7 +23,7 @@
 
 .loginwrapper {
     width: 50%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,7 +100,7 @@
     border: 0;
     background-color: #898080;
     height: 0.5px;
-    width: 140px;
+    width: 132px;
 
 
 }
@@ -114,7 +114,7 @@
 }
 
 .btn-acc {
-    width: 330px;
+    width: 310px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -151,12 +151,21 @@
     color: #1D9BF0;
 }
 
+.create-acc {
+    padding: 40px 0;
+}
+
 .create-acc h2 {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 700;
+    color: #E7E9EA;
+    text-transform: capitalize;
     padding: 10px 5px;
 }
 
 .already-acc-btn {
-    width: 330px;
+    width: 310px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -164,7 +173,7 @@
     border-radius: 35px;
     border: none;
     background-color: transparent;
-    border: 1px solid #1D9BF0;
+    border: 1px solid #536471;
     color: #000;
     cursor: pointer;
 }
