@@ -206,9 +206,35 @@ body {
 }
 
 footer {
-    padding: 2rem;
+    padding: 10px 20px;
+}
+
+footer span {
+    cursor: pointer;
 }
 
 .footer {
-    color: #ffd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #898080;
+    font-family: poppins;
+    font-size: 12px;
+
+}
+
+
+.minfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #898080;
+    font-family: poppins;
+    font-size: 12px;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+footer span:hover {
+    border-bottom: 1px solid #898080;
 }
