@@ -4,13 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background-color: #424242;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #686868;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #424242;
+}
+
 .container {
     width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+
 }
 
 .xwrapper {
@@ -23,12 +40,14 @@
 
 .loginwrapper {
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
     color: #898080;
+    /* overflow: hidden; */
+    padding: 2rem 0;
 }
 
 .wrapperheading {
@@ -184,5 +203,12 @@
     font-weight: 700;
     color: #1D9BF0;
     text-transform: capitalize;
+}
 
+footer {
+    padding: 2rem;
+}
+
+.footer {
+    color: #ffd;
 }
