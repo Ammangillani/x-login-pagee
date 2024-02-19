@@ -238,3 +238,54 @@ footer span {
 footer span:hover {
     border-bottom: 1px solid #898080;
 }
+
+@media(max-width:500px) {
+
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+    }
+
+    .xwrapper {
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+
+    }
+
+    .xwrapper svg {
+        width: 100px;
+    }
+
+    .loginwrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: baseline;
+        color: #898080;
+        /* overflow: hidden; */
+        padding: 2rem 0;
+    }
+
+    .wrapperheading {
+        display: flex;
+        /* height: 400px; */
+        align-items: baseline;
+        flex-direction: column;
+
+    }
+
+    .wrapperheading h1 {
+        font-size: 64px;
+        color: #E7E9EA;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 3rem;
+    }
+}
