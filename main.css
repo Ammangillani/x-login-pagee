@@ -338,7 +338,10 @@ footer span:hover {
 
 
     footer {
-        padding: 10px 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 
     footer span {
@@ -349,6 +352,7 @@ footer span:hover {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        flex-wrap: wrap;
         color: #898080;
         font-family: poppins;
         font-size: 12px;
@@ -359,12 +363,13 @@ footer span:hover {
     .minfooter {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         color: #898080;
+        flex-wrap: wrap;
         font-family: poppins;
         font-size: 12px;
-        gap: 20px;
-        padding: 10px 0;
+        gap: 5px;
+        padding: 0px;
     }
 
     footer span:hover {
